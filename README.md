@@ -14,4 +14,7 @@ Made using the create-react-app typescript template, MetaMask recommandation to 
 $npm install
 
 # Run
-$npm run start
+$npm start
+
+# Check
+Visit http://localhost:3000
