@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import ConnectMetaMask from "./components/ConnectMetaMask";
-import DaiBalance from "./components/DaiBalance";
+import WEthBalance from "./components/WEthBalance";
 import { Address } from "./types/types";
 import { providers } from "ethers";
 
@@ -18,7 +18,7 @@ function App() {
           currentAccount,
           setCurrentAccount
         )}
-        {DaiBalance(
+        {WEthBalance(
           provider,
           currentAccount
         )}
