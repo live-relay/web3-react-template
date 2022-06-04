@@ -17,4 +17,4 @@ $npm install
 $npm start
 
 # Check
-Visit http://localhost:3000
+Visit localhost port 3000
